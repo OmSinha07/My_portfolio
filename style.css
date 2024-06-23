@@ -161,7 +161,7 @@ nav ul li a
 nav
 {
 height: 442px;
-width: auto;
+width: 100%;
 min-width: 615px;
 background-color: rgb(8, 8, 69);
 }
