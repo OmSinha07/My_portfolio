@@ -3,8 +3,10 @@ body
     background-color: rgb(6, 6, 53);
     color:white;
     font-family: 'Poppins',sans-serif;
-
+    overflow-x: hidden;
 }
+
+
 *
 {
     margin:0;
@@ -132,8 +134,12 @@ width: 100%;
 
 nav
 {
-display: flex;
-flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 43vh;
+   flex-direction: column;
+    background-color: rgb(8, 8, 69);
 }
 nav ul
 {
